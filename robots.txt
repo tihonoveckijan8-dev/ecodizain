@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tihonoveckijan8.github.io/sitemap.xml
