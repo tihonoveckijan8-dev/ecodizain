@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>IT технологии и ЭКОдизайн</title>
+    <meta name="description" content="Кружок IT технологий и экодизайна для детей 7–14 лет. Программирование Scratch, графический дизайн, нейросети, экопроекты. Минск, ул. Макаёнка 8.">
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='50' fill='%234a8c3f'/%3E%3Ctext x='50' y='67' font-size='60' text-anchor='middle' fill='white' font-family='Arial'%3E🌿%3C/text%3E%3C/svg%3E">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;500;600;700;800&family=Playfair+Display:wght@600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header-inner">
+            <a href="#" class="logo" id="logoLink">
+                <div class="logo-icon"><span class="material-symbols-outlined">eco</span></div>
+                <div class="logo-text">IT&ЭКОдизайн</div>
+            </a>
+            <ul class="nav-tabs desktop-nav" id="desktopNav">
+                <div class="tab-indicator"></div>
+                <li><button class="nav-tab active" data-tab="home"><span class="material-symbols-outlined">home</span> Главная</button></li>
+                <li><button class="nav-tab" data-tab="history"><span class="material-symbols-outlined">history</span> История</button></li>
+                <li><button class="nav-tab" data-tab="teacher"><span class="material-symbols-outlined">person</span> Преподаватель</button></li>
+                <li><button class="nav-tab" data-tab="gallery"><span class="material-symbols-outlined">collections</span> Фотогалерея</button></li>
+                <li><button class="nav-tab" data-tab="works"><span class="material-symbols-outlined">star</span> Наши достижения</button></li>
+                <li><button class="nav-tab" data-tab="program"><span class="material-symbols-outlined">menu_book</span> Что изучаем</button></li>
+                <li><button class="nav-tab" data-tab="directions"><span class="material-symbols-outlined">directions</span> Как добраться</button></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn"><span class="material-symbols-outlined">menu</span></button>
+        </div>
+    </header>
+
+    <div class="mobile-overlay" id="mobileOverlay">
+        <div class="mobile-menu-container" id="mobileMenuContainer"></div>
+    </div>
+
+    <main class="main" id="mainContent">
+        <!-- Главная -->
+        <div class="tab-content active" id="tab-home">
+            <div class="section-hero">
+                <div>
+                    <span class="hero-badge"><span class="material-symbols-outlined">park</span> Республиканский центр детского развития</span>
+                    <h1 class="hero-title">IT технологии и <span class="accent">ЭКОдизайн</span></h1>
+                    <p class="hero-subtitle">Мы учим детей 7–14 лет основам программирования, графического дизайна и работе с нейросетями. Вдохновляемся природой и создаём цифровое искусство.</p>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-card">
+                        <div class="code-block">
+                            <span class="keyword">когда</span> <span class="func">нажать_на_зеленый_флаг</span><br>
+                            &nbsp;&nbsp;<span class="keyword">сказать</span> <span class="string">«Привет, я люблю природу!»</span><br>
+                            <span class="keyword">повторить</span> <span class="string">5</span> <span class="keyword">раз</span><br>
+                            &nbsp;&nbsp;<span class="func">нарисовать_цветок</span>
+                        </div>
+                        <p class="code-caption">Пример кода в Scratch — наши первые шаги</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cards-grid">
+                <div class="card"><span class="material-symbols-outlined card-icon">code_blocks</span><h3>Программирование</h3><p>Scratch, основы алгоритмов, создание игр и анимаций.</p></div>
+                <div class="card"><span class="material-symbols-outlined card-icon">brush</span><h3>Графический дизайн</h3><p>Photoshop, Pixilart, GIMP, Krita — от пиксель-арта до сложных композиций.</p></div>
+                <div class="card"><span class="material-symbols-outlined card-icon">psychology</span><h3>Нейросети</h3><p>Знакомство с искусственным интеллектом, генерация изображений, оживление персонажей.</p></div>
+                <div class="card"><span class="material-symbols-outlined card-icon">groups</span><h3>Команда и поддержка</h3><p>Занятия в небольших группах (8–10 человек) на современных компьютерах в уютной атмосфере. Индивидуальный подход к каждому.</p></div>
+            </div>
+        </div>
+
+        <!-- История -->
+        <div class="tab-content" id="tab-history">
+            <h2><span class="material-symbols-outlined">history</span> История кружка</h2>
+            <div class="timeline">
+                <div class="timeline-item"><div class="timeline-year"><span class="material-symbols-outlined">calendar_today</span> 1987</div><p><strong>Основание.</strong> Кружок открылся при экологическом центре «Росток». С самого начала занятия ведёт педагог высшей категории <strong>Яцевич Светлана Юрьевна</strong>.</p></div>
+                <div class="timeline-item"><div class="timeline-year"><span class="material-symbols-outlined">calendar_today</span> 2023</div><p><strong>Республиканская выставка.</strong> Участие в выставке научно-методической литературы. Демонстрация работы робота MatataLab.</p></div>
+                <div class="timeline-item"><div class="timeline-year"><span class="material-symbols-outlined">calendar_today</span> 2026</div><p><strong>Выставка «Оживающие персонажи».</strong> Во Дворце республики (галерея Института культуры) с помощью ИИ мы «оживили» картины учащихся студии «Флории».</p></div>
+                <div class="timeline-item"><div class="timeline-year"><span class="material-symbols-outlined">calendar_today</span> 2026</div><p><strong>Скоро 40 лет!</strong> Наш кружок продолжает расти, снимать видео, создавать онлайн-спектакли, клипы.</p></div>
+            </div>
+        </div>
+
+        <!-- Преподаватель -->
+        <div class="tab-content" id="tab-teacher">
+            <h2><span class="material-symbols-outlined">person</span> Преподаватель</h2>
+            <div class="teacher-profile">
+                <div class="teacher-avatar">
+                    <img src="1.png" alt="Светлана Юрьевна Яцевич" loading="lazy" onerror="this.src='https://placehold.co/400x400?text=Фото+педагога'">
+                </div>
+                <div class="teacher-info">
+                    <h2>Яцевич Светлана Юрьевна <span class="material-symbols-outlined" style="color:#f4b400;">verified</span></h2>
+                    <div class="badge-row">
+                        <span class="badge"><span class="material-symbols-outlined">school</span> Педагог высшей категории</span>
+                        <span class="badge"><span class="material-symbols-outlined">history</span> Опыт с 1987 года</span>
+                        <span class="badge"><span class="material-symbols-outlined">eco</span> Вдохновение природой</span>
+                    </div>
+                    <p>Светлана Юрьевна ведёт кружок с момента его основания. Она верит, что каждый ребёнок имеет свой талант, и находит индивидуальный подход к каждому ученику. Под её руководством ребята не только осваивают IT и дизайн, но и раскрываются как сценаристы, актёры, режиссёры.</p>
+                    <div class="teacher-contacts">
+                        <a href="tel:+375296692236" class="phone-link"><span class="material-symbols-outlined">call</span> +375(29)669-22-36</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Фотогалерея -->
+        <div class="tab-content" id="tab-gallery">
+            <h2><span class="material-symbols-outlined">collections</span> Фотогалерея</h2>
+            <p class="section-subtitle">Яркие моменты наших занятий и компьютерных проектов →</p>
+            <div class="slider-container">
+                <div class="slider" id="slider"></div>
+                <button class="slider-btn prev" id="prevSlide"><span class="material-symbols-outlined">chevron_left</span></button>
+                <button class="slider-btn next" id="nextSlide"><span class="material-symbols-outlined">chevron_right</span></button>
+                <div class="slider-dots" id="sliderDots"></div>
+                <div class="slider-counter" id="sliderCounter"></div>
+            </div>
+        </div>
+
+        <!-- Наши достижения -->
+        <div class="tab-content" id="tab-works">
+            <h2><span class="material-symbols-outlined">emoji_events</span> Наши достижения и проекты</h2>
+            <div class="works-list">
+                <div class="work-card"><div class="work-title"><span class="material-symbols-outlined">robot_2</span> MatataLab на выставке</div><p>2023 и 2026 годы – Республиканская выставка научно-методической литературы. Демонстрировали работу робота MatataLab.</p><div class="work-meta"><span>🏆 Высокая оценка специалистов</span></div></div>
+                <div class="work-card"><div class="work-title"><span class="material-symbols-outlined">magic</span> Оживающие персонажи</div><p>2026 год – выставка во Дворце республики (галерея Института культуры). С помощью ИИ мы «оживили» картины учащихся студии «Флории».</p><div class="work-meta"><span>🎨 Уникальный проект</span></div></div>
+                <div class="work-card"><div class="work-title"><span class="material-symbols-outlined">movie</span> Видео-спектакли и клипы</div><p>Наш кружок снимает многочисленные видео: онлайн-спектакли, поздравления, клипы. Учащиеся выступают как сценаристы, актёры и режиссёры.</p><div class="work-meta"><span>🎬 Более 20 проектов</span></div></div>
+                <div class="work-card"><div class="work-title"><span class="material-symbols-outlined">forest</span> Эко-проекты</div><p>Компьютерные проекты наших учеников связаны с природой и экологией. Защита проектов – важная часть обучения.</p><div class="work-meta"><span>🌱 Программирование + экология</span></div></div>
+            </div>
+        </div>
+
+        <!-- Программа -->
+        <div class="tab-content" id="tab-program">
+            <h2><span class="material-symbols-outlined">menu_book</span> Что изучаем</h2>
+            <div class="program-timeline">
+                <div class="program-item"><div class="program-num">01</div><div><strong>Программирование в Scratch</strong> – от первых алгоритмов до собственных игр и анимаций.</div></div>
+                <div class="program-item"><div class="program-num">02</div><div><strong>Графический дизайн</strong> – Photoshop, Pixilart, GIMP, Krita: пиксель-арт, цифровая иллюстрация.</div></div>
+                <div class="program-item"><div class="program-num">03</div><div><strong>Нейросети и ИИ</strong> – генерация изображений, оживление персонажей.</div></div>
+                <div class="program-item"><div class="program-num">04</div><div><strong>Компьютерные проекты</strong> – презентации, видео, анимации на экологическую тематику.</div></div>
+                <div class="program-item"><div class="program-num">05</div><div><strong>Защита проектов</strong> – учимся выступать, аргументировать и демонстрировать работы.</div></div>
+            </div>
+        </div>
+
+        <!-- Как добраться -->
+        <div class="tab-content" id="tab-directions">
+            <h2><span class="material-symbols-outlined">directions</span> Как к нам добраться</h2>
+            <p class="section-subtitle">ЭкоЦентр «Росток» находится по адресу: <strong>Минск, ул. Макаёнка, 8</strong>.</p>
+            <div class="directions-wrapper">
+                <div class="map-container">
+                    <iframe src="https://yandex.ru/map-widget/v1/?ll=27.5706,53.9249&z=17&pt=27.5706,53.9249&whatshere%5Bpoint%5D=27.5706,53.9249&whatshere%5Bzoom%5D=17" width="100%" height="100%" frameborder="0" title="Карта" loading="lazy"></iframe>
+                </div>
+                <div class="route-builder">
+                    <h3>Проложить маршрут</h3>
+                    <p>Введите вашу точку отправления (город, улица, дом):</p>
+                    <div class="route-input-group">
+                        <input type="text" id="startPoint" placeholder="Например: Минск, пр. Независимости, 1" class="route-input">
+                        <button id="buildRouteBtn" class="btn btn-primary">Построить маршрут</button>
+                    </div>
+                    <small>Откроется Яндекс.Карты с маршрутом до <strong>ул. Макаёнка, 8</strong>.</small>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <span class="material-symbols-outlined">copyright</span>Кружок «IT технологии и ЭКОдизайн»
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
